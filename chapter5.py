@@ -24,3 +24,38 @@ arr_2d=np.array([[1,2,3],[4,5,6]])
 vector=np.array([10,20,30])
 result=arr_2d+vector
 print(result)
+
+#error
+
+import numpy as np
+# arr1=np.array([[1,2,3],[4,5,6]]) #shape(2,3)
+# arr2=np.array([12,34]) #shape(2)
+# result= arr1 + arr2
+# print(result)
+
+#reshape()
+
+list1=[1,2,3]
+list2=[4,5,6]
+result = [x+y for x,y in zip(list1,list2)]
+print(result)
+
+
+arr1 = np.array([1,2,3])
+arr2 = np.array([4,5,6])
+result = arr1+arr2
+print(result)
+
+arr = np.array([10,20,30])
+multiplied = arr*3
+print(multiplied)
+
+#boasting --expands smaller array to larger array
+# faster than loop
+# 1d--explands to 2d shape
+#vectorization -- performing operations on entire arrays at once
+#100* faster than for loop
+#used in matrix operations, image processing, machine learning, deep learning
+
+
+
